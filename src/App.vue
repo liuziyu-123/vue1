@@ -2,6 +2,13 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
+     |
+    <router-link to="/first">First</router-link>
+ |
+    
+        <router-link to="/home" tag="li">HOME</router-link>
+         |        <router-link to="/list" tag="li">LIST</router-link>
+      
   </div>
   <router-view/>
 </template>
